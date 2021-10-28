@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 1em;
+    background-color: #996633;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#title {
+    font-size: 3em;
+    font-family: 'Playfair Display', serif;
+}
+
+#navbar {
+    width: 50%;
+    display: inline-flex;
+    justify-content: space-evenly;
+    font-size: 2em;
+    font-family: 'Playfair Display', serif;
+}
+
+#navbar a {
+    transition: ease-in-out 1s;
+}
+
+#navbar a:visited {
+    color: inherit;
+}
+
+#navbar a:hover {
+    color: #999999;
+}
+
+#navbar a:link {
+    text-decoration: none;
+    color: inherit;
+}
