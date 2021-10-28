@@ -70,14 +70,17 @@ li {
     margin-top: 5px;
 }
 
-#commanders {
+article {
     margin-top: 36px;
+    margin-bottom: 50px;
 }
 
-#commanders h2 {
-    margin-bottom: 10px;
-    font-size: 50px;
-    text-align: center;
+#deputy-commanders h2 {
+    font-size: 44px;
+}
+
+#commissars h2 {
+    font-size: 35px;
 }
 
 main {
@@ -85,6 +88,12 @@ main {
     color: #1b1b1b;
     padding-left: 15%;
     padding-right: 15%;
+}
+
+main h2 {
+    margin-bottom: 10px;
+    font-size: 50px;
+    text-align: center;
 }
 
 /*header nav .button{
