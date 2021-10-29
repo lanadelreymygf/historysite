@@ -96,6 +96,12 @@ main h2 {
     text-align: center;
 }
 
+main h3 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding-left: 40px;
+}
+
 /*header nav .button{
     background-color: #1ab26b; 
     color: #FFF;
